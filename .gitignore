@@ -28,3 +28,6 @@ Thumbs.db
 
 # PWA
 dev-dist/
+#
+quick-start.md
+readme.md
