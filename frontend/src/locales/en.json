@@ -1,0 +1,354 @@
+{
+    "appTitle": "Zero Malaria Zambia | MapTrack",
+    "help": "Help",
+    "nav": {
+        "submit": "Submit Case",
+        "map": "Alert Map",
+        "dashboard": "Dashboard",
+        "learn": "Learn",
+        "documentaries": "Documentaries",
+        "prevention": "Prevention",
+        "hospitals": "Hospitals",
+        "news": "News"
+    },
+    "tabs": {
+        "submit": "Submit Case",
+        "map": "Alert Map",
+        "dashboard": "Dashboard"
+    },
+    "form": {
+        "reporterName": "Reporter Name",
+        "reporterPhone": "Reporter Phone",
+        "patientAge": "Patient Age",
+        "patientGender": "Patient Gender",
+        "symptoms": "Symptoms",
+        "rdtResult": "RDT Result",
+        "submitBtn": "Submit Report",
+        "location": "Location",
+        "gettingLocation": "Getting Location..."
+    },
+    "map": {
+        "legend": "Outbreak Intensity"
+    },
+    "dashboard": {
+        "totalCases": "Total Cases",
+        "outbreaks": "Active Outbreaks"
+    },
+    "footer": {
+        "mission": "Working towards a malaria-free Zambia through community-driven health surveillance and rapid response.",
+        "quickLinks": "Quick Links",
+        "resources": "Resources",
+        "contact": "Contact",
+        "copyright": "Zero Malaria Zambia",
+        "builtWith": "Built with",
+        "forZambia": "for Zambia"
+    },
+    "auth": {
+        "login": {
+            "title": "Login",
+            "subtitle": "Access your account",
+            "button": "Login"
+        },
+        "signup": {
+            "title": "Create Account",
+            "subtitle": "Join the fight against malaria",
+            "button": "Sign Up"
+        },
+        "email": "Email",
+        "password": "Password",
+        "confirmPassword": "Confirm Password",
+        "name": "Full Name",
+        "phone": "Phone Number",
+        "role": "I am a...",
+        "facility": "Health Facility",
+        "roles": {
+            "user": "Community Member",
+            "healthProfessional": "Health Professional"
+        },
+        "loggingIn": "Logging in...",
+        "signingUp": "Creating account...",
+        "noAccount": "Don't have an account?",
+        "hasAccount": "Already have an account?"
+    },
+    "verifyEmail": {
+        "verifying": "Verifying Email...",
+        "success": "Email Verified!",
+        "failed": "Verification Failed",
+        "successMessage": "Your email has been successfully verified. You can now access all features.",
+        "errorMessage": "Verification failed. The token may be invalid or expired.",
+        "goToLogin": "Go to Login"
+    },
+    "resetPassword": {
+        "title": "Reset Password",
+        "newPassword": "New Password",
+        "confirmPassword": "Confirm Password",
+        "submit": "Reset Password",
+        "submitting": "Resetting...",
+        "success": "Password reset successful. You can now login with your new password.",
+        "invalidToken": "Invalid or expired reset link.",
+        "passwordMismatch": "Passwords do not match",
+        "goToLogin": "Go to Login"
+    },
+    "forgotPassword": {
+        "title": "Forgot Password",
+        "subtitle": "Enter your email to receive a password reset link",
+        "email": "Email Address",
+        "submit": "Send Reset Link",
+        "submitting": "Sending...",
+        "success": "If that email exists, a password reset link has been sent.",
+        "backToLogin": "Back to Login"
+    },
+    "profile": {
+        "title": "User Profile",
+        "personalInfo": "Personal Information",
+        "name": "Name",
+        "email": "Email",
+        "role": "Role",
+        "facility": "Facility",
+        "status": "Status",
+        "verified": "Verified",
+        "unverified": "Unverified",
+        "notificationPreferences": "Notification Preferences",
+        "emailNotifications": "Email Notifications",
+        "smsNotifications": "SMS Notifications (Coming Soon)",
+        "preferencesUpdated": "Preferences updated successfully",
+        "updateFailed": "Failed to update preferences",
+        "logout": "Logout"
+    },
+    "adminDashboard": {
+        "title": "System Audit Logs",
+        "filterLabel": "Filter by Action:",
+        "allActions": "All Actions",
+        "logins": "Logins",
+        "caseSubmissions": "Case Submissions",
+        "interventions": "Interventions",
+        "loading": "Loading logs...",
+        "noLogs": "No audit logs found",
+        "columns": {
+            "time": "Time",
+            "action": "Action",
+            "user": "User",
+            "details": "Details"
+        },
+        "actions": {
+            "user_login": "User Login",
+            "user_signup": "User Signup",
+            "case_submitted": "Case Submitted",
+            "intervention_added": "Intervention Added",
+            "email_verified": "Email Verified",
+            "password_reset_requested": "Password Reset Requested",
+            "password_reset_completed": "Password Reset Completed"
+        },
+        "accessDenied": "Access Denied. Admins only."
+    },
+    "healthDashboard": {
+        "title": "Health Professional Dashboard",
+        "welcome": "Welcome back",
+        "statistics": "Statistics",
+        "totalCases": "Total Cases",
+        "pendingCases": "Pending",
+        "investigating": "Investigating",
+        "resolved": "Resolved",
+        "filters": "Filters",
+        "allStatuses": "All Statuses",
+        "allDistricts": "All Districts",
+        "searchPlaceholder": "Search cases...",
+        "casesList": "Cases List",
+        "noCases": "No cases found",
+        "caseDetails": {
+            "reporter": "Reporter",
+            "patient": "Patient",
+            "location": "Location",
+            "rdtResult": "RDT Result",
+            "symptoms": "Symptoms",
+            "status": "Status",
+            "reportedOn": "Reported On"
+        },
+        "intervene": "Intervene",
+        "interventionModal": {
+            "title": "Add Intervention",
+            "action": "Action Taken",
+            "selectAction": "Select action...",
+            "actions": {
+                "deploy_chw": "Deploy CHW",
+                "distribute_nets": "Distribute Bed Nets",
+                "spray_area": "Indoor Residual Spraying",
+                "patient_referral": "Patient Referral",
+                "community_education": "Community Education",
+                "other": "Other"
+            },
+            "notes": "Notes",
+            "notesPlaceholder": "Enter intervention details...",
+            "submit": "Save Intervention",
+            "cancel": "Cancel",
+            "submitting": "Saving..."
+        }
+    },
+    "documentaries": {
+        "pageTitle": "Educational Videos",
+        "pageSubtitle": "Learn about malaria prevention, treatment, and community action",
+        "zambiaVaccine": {
+            "title": "Zambia Launches Malaria Vaccine",
+            "desc": "Historic launch of malaria vaccine by Zambia Ministry of Health and partners"
+        },
+        "communityVideo": {
+            "title": "Community Sensitization - Zambia NMEC",
+            "desc": "Learn how communities are educated about malaria prevention and treatment"
+        },
+        "ministerMessage": {
+            "title": "Minister of Health on Malaria in Zambia",
+            "desc": "Hon. Dr. Elijah Muchima shares vital malaria prevention advice for all Zambians"
+        },
+        "dataVisualization": {
+            "title": "Visualize No Malaria - Data for Action",
+            "desc": "How Zambia uses data visualization to eliminate malaria"
+        },
+        "understanding": {
+            "title": "What is Malaria?",
+            "desc": "Learn about malaria, its causes, and how it spreads"
+        },
+        "prevention": {
+            "title": "Prevention Methods",
+            "desc": "Discover effective ways to prevent malaria transmission"
+        },
+        "treatment": {
+            "title": "Treatment & Care",
+            "desc": "Understanding malaria treatment and patient care"
+        },
+        "community": {
+            "title": "Zero Malaria Starts with Me",
+            "desc": "Join the community movement to end malaria"
+        },
+        "nets": {
+            "title": "The Power of Bed Nets",
+            "desc": "How insecticide-treated nets save lives"
+        },
+        "lifecycle": {
+            "title": "Malaria Parasite Lifecycle",
+            "desc": "Understanding the transmission cycle"
+        },
+        "learnMore": "Want to Learn More?",
+        "ctaText": "Visit the WHO website for comprehensive information about malaria prevention, treatment, and global elimination efforts.",
+        "visitWHO": "Visit WHO Malaria Resources"
+    },
+    "prevention": {
+        "pageTitle": "Malaria Prevention Guide",
+        "pageSubtitle": "Protect yourself and your family from malaria",
+        "nets": {
+            "title": "Use Mosquito Nets",
+            "desc": "Insecticide-treated nets are your best defense against malaria-carrying mosquitoes.",
+            "tip1": "Sleep under a treated net every night",
+            "tip2": "Ensure nets have no holes or tears",
+            "tip3": "Tuck nets under mattress edges"
+        },
+        "spray": {
+            "title": "Indoor Residual Spraying",
+            "desc": "Regular indoor spraying kills mosquitoes and prevents malaria transmission.",
+            "tip1": "Allow health workers to spray your home",
+            "tip2": "Don't wash walls for 6 months after spraying",
+            "tip3": "Report any mosquito activity"
+        },
+        "clothing": {
+            "title": "Protective Clothing",
+            "desc": "Cover up during peak mosquito hours (dusk to dawn).",
+            "tip1": "Wear long sleeves and pants in the evening",
+            "tip2": "Use mosquito repellent on exposed skin",
+            "tip3": "Avoid dark-colored clothing"
+        },
+        "environment": {
+            "title": "Environmental Control",
+            "desc": "Eliminate mosquito breeding sites around your home.",
+            "tip1": "Remove standing water from containers",
+            "tip2": "Clear bushes and tall grass near homes",
+            "tip3": "Cover water storage containers tightly"
+        },
+        "symptomsTitle": "Recognize the Symptoms",
+        "symptomsIntro": "If you experience these symptoms, seek medical attention immediately:",
+        "symptoms": {
+            "fever": "High Fever",
+            "sweating": "Sweating",
+            "chills": "Chills",
+            "headache": "Headache",
+            "nausea": "Nausea",
+            "fatigue": "Fatigue",
+            "bodyPain": "Body Pain",
+            "vomiting": "Vomiting"
+        },
+        "emergencyTitle": "Emergency Contacts",
+        "emergencyText": "If you suspect malaria, don't wait. Get tested and treated immediately.",
+        "emergency": "Emergency Services",
+        "healthHotline": "Health Hotline",
+        "smsReporting": "SMS Reporting",
+        "takeAction": "Take Action Today",
+        "ctaText": "Prevention is better than cure. Implement these measures to protect your community from malaria.",
+        "learnMore": "Learn More"
+    },
+    "hospitals": {
+        "pageTitle": "Health Facilities Near You",
+        "pageSubtitle": "Find hospitals and clinics for malaria testing and treatment",
+        "filterLabel": "Filter by Facility Type:",
+        "allFacilities": "All Facilities",
+        "hospitals": "Hospitals",
+        "clinics": "Clinics",
+        "healthPosts": "Health Posts",
+        "yourLocation": "Your Location",
+        "away": "away",
+        "facilitiesList": "All Health Facilities",
+        "viewOnMap": "View on Map",
+        "needHelp": "Need Immediate Help?",
+        "helpText": "For malaria emergencies, contact these numbers 24/7:",
+        "emergency": "Emergency",
+        "healthHotline": "Health Hotline"
+    },
+    "news": {
+        "pageTitle": "Health News & Updates",
+        "pageSubtitle": "Stay informed about malaria and health developments in Zambia",
+        "allNews": "All News",
+        "malariaUpdates": "Malaria Updates",
+        "healthAdvisories": "Health Advisories",
+        "sanitation": "Sanitation",
+        "communityHealth": "Community Health",
+        "today": "Today",
+        "yesterday": "Yesterday",
+        "daysAgo": "days ago",
+        "weeksAgo": "weeks ago",
+        "readMore": "Read More",
+        "comingSoon": "Full article coming soon!",
+        "stayInformed": "Stay Informed",
+        "alertText": "Subscribe to receive health updates and malaria alerts for your district.",
+        "subscribe": "Subscribe to Alerts",
+        "usefulLinks": "Useful Resources",
+        "article1": {
+            "title": "Malaria Cases Decline 30% in Western Province",
+            "summary": "Thanks to intensive bed net distribution and community education, Western Province reports significant reduction in malaria cases this season."
+        },
+        "article2": {
+            "title": "New Rapid Diagnostic Tests Now Available",
+            "summary": "Ministry of Health rolls out improved malaria RDTs across all health facilities, ensuring faster and more accurate diagnosis."
+        },
+        "article3": {
+            "title": "Clean Water Initiative Reaches 50 Communities",
+            "summary": "Improved sanitation and access to clean water reduces disease transmission and improves overall community health outcomes."
+        },
+        "article4": {
+            "title": "Free Bed Net Distribution Campaign Begins",
+            "summary": "Zero Malaria Zambia announces nationwide distribution of insecticide-treated nets. Register at your nearest health center."
+        },
+        "article5": {
+            "title": "Community Health Workers Receive Advanced Training",
+            "summary": "Over 500 CHWs complete training on malaria case management and community mobilization techniques."
+        },
+        "article6": {
+            "title": "Study Shows Promise for New Malaria Vaccine",
+            "summary": "Zambian researchers contribute to groundbreaking study on next-generation malaria vaccine with 85% efficacy rate."
+        },
+        "article7": {
+            "title": "Sanitation Week: Focus on Mosquito Breeding Sites",
+            "summary": "National campaign encourages communities to eliminate standing water and maintain clean environments."
+        },
+        "article8": {
+            "title": "WHO Commends Zambia's Malaria Control Progress",
+            "summary": "World Health Organization recognizes Zambia's innovative approach to malaria surveillance and community engagement."
+        }
+    }
+}

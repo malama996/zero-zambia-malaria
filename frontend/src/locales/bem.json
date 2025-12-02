@@ -1,0 +1,26 @@
+{
+    "appTitle": "Zero Malaria Zambia | MapTrack",
+    "tabs": {
+        "submit": "Tumini Lipoti",
+        "map": "Mapu ya Chenjezo",
+        "dashboard": "Dashboard"
+    },
+    "form": {
+        "reporterName": "Ishina lya Nkombe",
+        "reporterPhone": "Lamya",
+        "patientAge": "Imyaka ya Mulwele",
+        "patientGender": "Gender",
+        "symptoms": "Ifishibilo",
+        "rdtResult": "Ifyafumamo mu RDT",
+        "submitBtn": "Tumini",
+        "location": "Incende",
+        "gettingLocation": "Tulefwaya incende..."
+    },
+    "map": {
+        "legend": "Ubukulu bwa Bulwele"
+    },
+    "dashboard": {
+        "totalCases": "Imilandu Yonse",
+        "outbreaks": "Ifyabuka"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "appTitle": "Zero Malaria Zambia | MapTrack",
+    "tabs": {
+        "submit": "Submit Case",
+        "map": "Alert Map",
+        "dashboard": "Dashboard"
+    },
+    "form": {
+        "reporterName": "Reporter Name",
+        "reporterPhone": "Reporter Phone",
+        "patientAge": "Patient Age",
+        "patientGender": "Patient Gender",
+        "symptoms": "Symptoms",
+        "rdtResult": "RDT Result",
+        "submitBtn": "Submit Report",
+        "location": "Location",
+        "gettingLocation": "Getting Location..."
+    },
+    "map": {
+        "legend": "Outbreak Intensity"
+    },
+    "dashboard": {
+        "totalCases": "Total Cases",
+        "outbreaks": "Active Outbreaks"
+    }
+}
