@@ -2,8 +2,6 @@
 
 A production-ready, full-stack malaria tracking application for Zambia with geospatial capabilities, intelligent SMS alerts, and multi-lingual support.
 
-![Status](https://img.shields.io/badge/status-production--ready-success)
-![Languages](https://img.shields.io/badge/languages-8-blue)
 
 ## 🎯 Overview
 
@@ -64,58 +62,6 @@ A production-ready, full-stack malaria tracking application for Zambia with geos
 - **PWA**: vite-plugin-pwa
 - **HTTP Client**: Axios
 
-## 📦 Installation
-
-### Prerequisites
-- Node.js (v16+)
-- MongoDB (local or Atlas)
-- npm or yarn
-
-### Backend Setup
-```bash
-cd backend
-npm install
-
-# Configure environmentcp .env.example .env
-# Edit .env with your MongoDB URI and Africa's Talking credentials
-
-# Seed the database with Zambian districts
-npm run seed
-
-# Start the server
-npm run dev
-```
-
-### Frontend Setup
-```bash
-cd frontend
-npm install
-
-# Start the development server
-npm run dev
-```
-
-The application will be available at:
-- **Frontend**: http://localhost:5173
-- **Backend**: http://localhost:5000
-
-## 🔧 Configuration
-
-### Environment Variables (Backend `.env`)
-```env
-PORT=5000
-MONGO_URI=mongodb://localhost:27017/maptrack
-AT_API_KEY=your_africas_talking_api_key
-AT_USERNAME=sandbox
-```
-
-### Environment Variables (Frontend `.env` - optional)
-```env
-VITE_API_URL=http://localhost:5000/api
-```
-
-## 📱 Usage
-
 ### First-Time Users
 1. Click the **❓ Help** button in the header to see the welcome guide
 2. Select your preferred language from the dropdown
@@ -161,49 +107,6 @@ The SMS system automatically:
 
 **Example**: An outbreak in Mongu would send Silozi messages by default, but users who set their preference to English would receive English messages.
 
-## 📊 Data Models
-
-### Case Schema
-```javascript
-{
-  reporterName: String,
-  reporterPhone: String,
-  patientAge: Number,
-  patientGender: String (Male/Female),
-  location: {
-    type: "Point",
-    coordinates: [lng, lat]
-  },
-  district: String (auto-assigned),
-  province: String (auto-assigned),
-  symptoms: [String],
-  rdtResult: String (Positive/Negative),
-  createdAt: Date
-}
-```
-
-### Subscriber Schema
-```javascript
-{
-  phoneNumber: String,
-  preferredLanguage: String,
-  district: String,
-  createdAt: Date
-}
-```
-
-## 🔮 Future Enhancements
-
-- [ ] DHIS2 integration for interoperability
-- [ ] User authentication (JWT)
-- [ ] Advanced analytics and predictions
-- [ ] Integration with national health systems
-- [ ] SMS opt-in flow for citizens
-- [ ] Real-time WebSocket updates
-- [ ] Export functionality (PDF, CSV)
-- [ ] Advanced filtering and search
-- [ ] Role-based access control
-
 ## 🤝 Contributing
 
 This is a public health tool. Contributions are welcome, especially:
@@ -228,7 +131,5 @@ MIT License - see LICENSE file for details
 For issues or questions:
 - Open an issue on GitHub
 - Contact the health ministry IT team
-
----
 
 **Built with ❤️ for Zero Malaria Zambia**
